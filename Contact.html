@@ -1,0 +1,93 @@
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <script src="aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+
+  <input type="checkbox" id="active">
+
+  <div class="header">
+
+    <button data-aos="fade-right" type="button" class="login-container">
+      <img class="login-icon" src="Login-Icon.png" alt="Login">
+      <p class="login-text"><b>Login</b></p>
+    </button>
+
+    <button data-aos="fade-right" type="button" class="sign-up-container"><b>Sign Up</b></button>
+
+    <a href="index.html"> <p data-aos="fade-down" class="logo"><span>Xolbor</span><strong>Eats</strong></p> </a>
+
+    <!--<img class="login-icon" src="img_88236.png" alt="Login"> -->
+
+    <label data-aos="fade-left" for="active" class="menu-btn"><span></span></label>
+    <label for="active" class="close"></label>
+  </div>
+
+  <div class="wrapper">
+    <ul>
+      <li><a href="index.html">About</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+      <li><a href="Orders.html">Orders</a></li>
+    </ul>
+  </div>
+
+  <!--<div class="about-container" >
+    <h1 class="about1">Food delivered right to your doorstep.</h1>
+    <div class="flex-container">
+      <div class="flex-">awsxawx</div>
+      <div>awxawxa</div>
+    </div>
+  </div>-->
+
+  <h1 data-aos="fade-right" class="order-title"><b>Order food!</b></h1>
+
+  <form data-aos="fade-up" class="contact-form">
+    <fieldset class="fieldset-1">
+        <legend>Name</legend>
+        <label for="fname">First Name</label>
+        <input type="text" name="fname" id="fname"><br><br>
+        <label for="famname">Family Name</label>
+        <input type="text" name="famname" id="famname">
+    </fieldset>
+
+    <fieldset class="fieldset-2">
+        <legend>Main</legend>
+        <h5>What are you contacting us about?</h5>
+        <input type="radio" name="Delivery" id="radio">
+        <label for="radio">Delivery</label> <br>
+        <input type="radio" name="Payment" id="radio">
+        <label for="radio">Payment</label> <br>
+        <input type="radio" name="Abuse Report" id="radio">
+        <label for="radio">Abuse Report</label> <br>
+        <input type="radio" name="Customer Suggestion" id="radio">
+        <label for="radio">Customer Suggestion</label> <br>
+        <input type="radio" name="Business Proposal" id="radio">
+        <label for="radio">Business Proposal</label> <br><br>
+
+        <h5>How would you like to be contacted?</h5>
+
+        <input type="checkbox" name="ch" id="ch" value="Mail">
+        <label for="ch">Mail</label> <br>
+        <input type="checkbox" name="ch2" id="ch2" value="no">
+        <label for="ch2">Phone Message</label> <br>
+        <input type="checkbox" name="ch3" id="ch3" value="muc">
+        <label for="ch3">Whatsapp</label> <br> <br>
+
+        <h5>Please further explain your reason for contacting us:</h5> <br>
+        <input type="text" name="comments" id="comments"> <br><br>
+
+        <input type="submit" value="Submit">
+    </fieldset>
+
+</form>
+
+</body>

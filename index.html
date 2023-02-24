@@ -1,0 +1,103 @@
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <script src="aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+
+  <input type="checkbox" id="active">
+
+  <div class="header">
+
+    <button data-aos="fade-right" type="button" class="login-container">
+      <img class="login-icon" src="Login-Icon.png" alt="Login">
+      <p class="login-text"><b>Login</b></p>
+    </button>
+
+    <button data-aos="fade-right" type="button" class="sign-up-container"><b>Sign Up</b></button>
+
+    <p data-aos="fade-down" class="logo"><span>Xolbor</span><strong>Eats</strong></p>
+
+    <!--<img class="login-icon" src="img_88236.png" alt="Login"> -->
+
+    <label data-aos="fade-left" for="active" class="menu-btn"><span></span></label>
+    <label for="active" class="close"></label>
+  </div>
+
+  <div class="wrapper">
+    <ul>
+      <li><a href="index.html">About</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+      <li><a href="Orders.html">Orders</a></li>
+    </ul>
+  </div>
+
+  <!--<div class="about-container" >
+    <h1 class="about1">Food delivered right to your doorstep.</h1>
+    <div class="flex-container">
+      <div class="flex-">awsxawx</div>
+      <div>awxawxa</div>
+    </div>
+  </div>-->
+
+  <div class="main-container">
+    <h1 data-aos="fade-right" class="about1"><b> Food delivered right to your doorstep.</b></h1>
+
+    <form data-aos="fade-right" class="form">
+      <input class="form-adress" type="text" id="fname" name="fname" value="Delivery Adress">
+      <select class="form-deliver" name="dropdown">
+        <option value="Computer Architecture" selected>Deliver now</option>
+        <option value="Discrete Mathematics">Schedule delivery</option>
+      </select>
+      <input class="form-find-food" type="submit" value="Find Food">
+    </form>
+  </div>
+
+  <div class="image-text-container">
+    <div data-aos="fade-right">
+      <a href="">
+        <img class="image-text-img" src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/dd109bb1f7572eed.png"
+          alt="Sämst">
+      </a>
+      <h2 class="image-text-title">Order food to your colleauges.</h2>
+      <a href="">
+        <p class="image-text-text"> Create a company account</p>
+      </a>
+
+    </div>
+
+    <div data-aos="fade-up">
+      <a href="">
+        <img class="image-text-img" src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/8148ef38ec4096b7.png"
+          alt="Sämst">
+      </a>
+      <h2 class="image-text-title">Your restaurant, we deliver.</h2>
+      <a href="">
+        <p class="image-text-text"> Add your restaurant</p>
+      </a>
+
+    </div>
+
+    <div data-aos="fade-left">
+      <a href="">
+        <img class="image-text-img" src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/7a9d4feba62d2c0b.png"
+          alt="Sämst">
+      </a>
+      <h2 class="image-text-title">Deliver with Xolbor Eats</h2>
+      <a href="">
+        <p class="image-text-text">Register for Xolbor Delivery</p>
+      </a>
+
+    </div>
+
+  </div>
+
+</body>

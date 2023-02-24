@@ -1,0 +1,55 @@
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <script src="aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+
+  <input type="checkbox" id="active">
+
+  <div class="header">
+
+    <button data-aos="fade-right" type="button" class="login-container">
+      <img class="login-icon" src="Login-Icon.png" alt="Login">
+      <p class="login-text"><b>Login</b></p>
+    </button>
+
+    <button data-aos="fade-right" type="button" class="sign-up-container"><b>Sign Up</b></button>
+
+    <p data-aos="fade-down" class="logo"><span>Xolbor</span><strong>Eats</strong></p>
+
+    <!--<img class="login-icon" src="img_88236.png" alt="Login"> -->
+
+    <label data-aos="fade-left" for="active" class="menu-btn"><span></span></label>
+    <label for="active" class="close"></label>
+  </div>
+
+  <div class="wrapper">
+    <ul>
+      <li><a href="index.html">About</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+      <li><a href="Orders.html">Orders</a></li>
+    </ul>
+  </div>
+
+    <h1 data-aos="fade-right" class="orders-1"><b>Active Orders</b></h1>
+
+    <div class="active-orders">
+      <p>You have no active orders.</p>
+    </div>
+
+    <h1 data-aos="fade-right" class="orders-1"><b>Previous Orders</b></h1>
+
+    <div class="active-orders">
+      <p>You have no current orders.</p>
+    </div>
+
+</body>
